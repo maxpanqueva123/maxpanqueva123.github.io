@@ -24,21 +24,6 @@
       opacity: 0;
       transform: translateY(-100px);
     }
-
-    /* Nombre de usuario en esquina */
-    #username {
-      position: absolute;
-      top: 10px;
-      right: 10px;
-      color: white;
-      font-family: sans-serif;
-      font-weight: bold;
-      background: rgba(0,0,0,0.3);
-      padding: 5px 10px;
-      border-radius: 5px;
-      user-select: none; /* Evita selección accidental */
-    }
-  </style>
 </head>
 <body>
 
