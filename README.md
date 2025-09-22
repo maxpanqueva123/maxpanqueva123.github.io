@@ -29,8 +29,7 @@
       document.body.style.backgroundColor = "#FFFFFF";
     }, 5000);
   </script>
-<!-- Elimina esto si está en tu código -->
-<h1>maxpanqueva123</h1>
+
 </body>
 </html>
 
