@@ -5,7 +5,7 @@
   <style>
     body {
       margin: 0;
-      background-color: #87CEFA; /* Azul celeste */
+      background-color: #C4F1F9; /* Azul celeste */
       display: flex;
       justify-content: center;
       align-items: center;
