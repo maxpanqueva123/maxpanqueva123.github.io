@@ -25,21 +25,7 @@
     }
   </style>
 </head>
-<body>
-  <h1>Cargando...</h1>
 
-  <script>
-    // Espera 1 segundo para mostrar el fondo azul
-    setTimeout(() => {
-      document.body.classList.add('hidden'); // Aplica transición (fade out)
-
-      // Luego de la transición, redirige automáticamente
-      setTimeout(() => {
-        window.location.href = "https://github.com/maxpanqueva123"; // Reemplaza con tu URL
-      }, 1000); // Tiempo de transición
-    }, 1000); // Tiempo inicial mostrando pantalla azul
-  </script>
-</body>
-</html>
+  
 
 
