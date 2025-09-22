@@ -1,4 +1,3 @@
-# <!DOCTYPE html>
 <html lang="es">
 <head>
   <meta charset="UTF-8">
@@ -30,16 +29,17 @@
   <h1>Cargando...</h1>
 
   <script>
+    // Espera 1 segundo para mostrar el fondo azul
     setTimeout(() => {
-      document.body.classList.add('hidden'); // Inicia transición
+      document.body.classList.add('hidden'); // Aplica transición (fade out)
 
+      // Luego de la transición, redirige automáticamente
       setTimeout(() => {
-        // Redirige después de la transición
-        window.location.href = "https://github.com/tu-usuario"; // <-- Cambia esto
-      }, 1000); // Espera 1 segundo para terminar transición
-
-    }, 1000); // Muestra pantalla azul por 1 segundo
+        window.location.href = "https://github.com/tu-usuario"; // Reemplaza con tu URL
+      }, 1000); // Tiempo de transición
+    }, 1000); // Tiempo inicial mostrando pantalla azul
   </script>
 </body>
 </html>
+
 
