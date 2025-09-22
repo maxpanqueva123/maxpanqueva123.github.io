@@ -35,7 +35,7 @@
 
       // Luego de la transición, redirige automáticamente
       setTimeout(() => {
-        window.location.href = "https://github.com/tu-usuario"; // Reemplaza con tu URL
+        window.location.href = "https://github.com/maxpanqueva123"; // Reemplaza con tu URL
       }, 1000); // Tiempo de transición
     }, 1000); // Tiempo inicial mostrando pantalla azul
   </script>
