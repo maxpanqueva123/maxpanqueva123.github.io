@@ -6,7 +6,7 @@
   <style>
     body {
       margin: 0;
-      background-color: #C4F1F9; /* Celeste pastel inicial */
+      background-color: #C4F1F9; /* hielo */
       display: flex;
       justify-content: center;
       align-items: center;
@@ -27,7 +27,7 @@
     // Esperar 5 segundos y luego cambiar el fondo a blanco
     setTimeout(() => {
       document.body.style.backgroundColor = "#FFFFFF";
-    }, 5000);
+    }, 3000);
   </script>
 
 </body>
