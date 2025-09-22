@@ -2,7 +2,7 @@
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1" />
-  <title>Transición con logo 3 segundos</title>
+  <title>Página con usuario en esquina</title>
   <style>
     body {
       margin: 0;
@@ -11,39 +11,53 @@
       justify-content: center;
       align-items: center;
       height: 100vh;
-      transition: background-color 3s ease; /* 3 segundos */
+      transition: background-color 3s ease;
       overflow: hidden;
+      position: relative; /* Para posicionar el nombre */
     }
 
     img {
       width: 200px;
-      transition: opacity 3s ease, transform 3s ease; /* 3 segundos */
+      transition: opacity 3s ease, transform 3s ease;
     }
 
     .logo-out {
       opacity: 0;
       transform: translateY(-100px);
     }
+
+    /* Nombre de usuario en esquina */
+    #username {
+      position: absolute;
+      top: 10px;
+      right: 10px;
+      color: white;
+      font-family: sans-serif;
+      font-weight: bold;
+      background: rgba(0,0,0,0.3);
+      padding: 5px 10px;
+      border-radius: 5px;
+      user-select: none; /* Evita selección accidental */
+    }
   </style>
 </head>
 <body>
+
+  <div id="username">maxpanqueva123</div>
 
   <img id="logo" src="logo.png" alt="Logo" />
 
   <script>
     setTimeout(() => {
-      // Cambiar fondo a blanco con transición de 3s
       document.body.style.backgroundColor = "#FFFFFF";
 
-      // Añadir clase para animar logo durante 3s
       const logo = document.getElementById("logo");
       logo.classList.add("logo-out");
 
-      // Quitar el logo del DOM después de 3s (termina animación)
       setTimeout(() => {
         logo.remove();
       }, 3000);
-    }, 5000); // Espera 5 segundos antes de iniciar todo
+    }, 5000);
   </script>
 
 </body>
