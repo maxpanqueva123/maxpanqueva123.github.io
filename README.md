@@ -2,7 +2,6 @@
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1" />
-  <title>Página con usuario en esquina</title>
   <style>
     body {
       margin: 0;
@@ -42,7 +41,6 @@
 </head>
 <body>
 
-  <div id="username">maxpanqueva123</div>
 
   <img id="logo" src="logo.png" alt="Logo" />
 
